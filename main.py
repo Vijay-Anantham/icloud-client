@@ -90,9 +90,9 @@ def find_my_phone(client):
 if __name__ == '__main__':
     email = os.getenv("USEREMAIL")
     password = os.getenv("USERPASSWORD")
+    download_dir = os.getenv("DOWNLOADDIR")
     
     icloud_client = create_client(email, password)
-    download_dir = "/Volumes/Extreme SSD/icloud-pic/26mar"
     # print(find_my_phone(icloud_client))
     # download_contacts(icloud_client)
     download_images(icloud_client, download_dir)

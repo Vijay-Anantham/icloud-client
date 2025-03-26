@@ -1,0 +1,7 @@
+# Core dependencies
+pyicloud>=1.2.0
+tqdm>=4.65.0
+
+# Additional recommended dependencies
+requests>=2.28.0
+urllib3>=1.26.0
